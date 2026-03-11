@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: My Site
+title: 150ml
 
 # import hextra as module
 module:
@@ -16,31 +16,43 @@ markup:
   highlight:
     noClasses: false
 
+taxonomies:
+  tag: tags
+  category: categories
+
+related:
+  includeNewer: true
+  threshold: 20
+  toLower: true
+  indices:
+    - name: tags
+      weight: 100
+    - name: categories
+      weight: 70
+    - name: date
+      weight: 10
+
 menu:
   main:
-    - name: Docs
-      pageRef: /docs
-      weight: 1
     - name: About
       pageRef: /about
+      weight: 1
+    - name: Tags
+      pageRef: /tags
       weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
+    - name: GitHub
       weight: 3
+      url: "https://github.com/arthugarcia"
+      params:
+        icon: github
     - name: Search
       weight: 4
       params:
         type: search
-    - name: GitHub
+    - name: Theme
       weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
       params:
-        icon: github
-    - name: Twitter
-      weight: 6
-      url: "https://twitter.com/"
-      params:
-        icon: x-twitter
+        type: theme-toggle
 
 params:
   navbar:
@@ -52,5 +64,10 @@ params:
     displayPoweredBy: true
 
   editURL:
-    enable: true
-    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+    enable: false
+
+  blog:
+    list:
+      displayTags: true
+    toc:
+      displayTags: true

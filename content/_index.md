@@ -1,17 +1,8 @@
 ---
-title: My Site
-toc: false
+title: 150ml Blog
 ---
 
-This is the landing page.
+## 2026 - March
 
-## Explore
-
-{{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
-  {{< card link="about" title="About" icon="user" >}}
-{{< /cards >}}
-
-## Documentation
-
-For more information, visit [Hextra](https://imfing.github.io/hextra).
+- [Blog Features Showcase](posts/blog-features-showcase/)
+- [My First Blog Post](posts/first-post/)

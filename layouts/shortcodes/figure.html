@@ -1,0 +1,19 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $caption := .Get "caption" | default "" -}}
+{{- $width := .Get "width" | default "" -}}
+
+<figure class="hx:my-6 hx:text-center">
+  <img
+    src="{{ $src }}"
+    alt="{{ $alt }}"
+    {{ with $width }}style="max-width: {{ . }};"{{ end }}
+    class="hx:mx-auto hx:rounded-lg hx:border hx:border-gray-200 hx:dark:border-neutral-700"
+    loading="lazy"
+  />
+  {{- with $caption }}
+    <figcaption class="hx:mt-2 hx:text-sm hx:text-gray-500 hx:dark:text-gray-400 hx:italic">
+      {{ . | markdownify }}
+    </figcaption>
+  {{- end }}
+</figure>

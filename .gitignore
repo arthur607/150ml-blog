@@ -2,6 +2,11 @@
 public/
 resources/
 .hugo_build.lock
+_vendor/
 
 # Editor
 .vscode/
+.idea/
+
+# Generated
+docs/
