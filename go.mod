@@ -1,4 +1,4 @@
-module github.com/imfing/hextra-starter-template
+module github.com/arthur607/150ml-blog
 
 go 1.21
 

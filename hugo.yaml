@@ -1,4 +1,8 @@
 # Hugo configuration file
+baseURL: "https://arthur607.github.io/150ml-blog/"
+languageCode: "en-US"
+description: "150ml — a personal blog"
+enableRobotsTXT: true
 title: 150ml
 
 # import hextra as module
