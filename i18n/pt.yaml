@@ -1,0 +1,152 @@
+- id: home
+  translation: Início
+
+- id: about
+  translation: Sobre
+
+- id: posts
+  translation: Posts
+
+- id: tags
+  translation: Tags
+
+- id: categories
+  translation: Categorias
+
+- id: search
+  translation: Buscar
+
+- id: archive
+  translation: Arquivo
+
+- id: archives
+  translation: Arquivos
+
+- id: all
+  translation: Todos
+
+- id: language
+  translation: Idioma
+
+- id: readMore
+  translation: Leia mais
+
+- id: readNext
+  translation: Leia a seguir
+
+- id: tableOfContents
+  translation: Índice
+
+- id: onThisPage
+  translation: Nesta página
+
+- id: editPage
+  translation: Editar página
+
+- id: close
+  translation: Fechar
+
+- id: clear
+  translation: Limpar
+
+- id: collapse
+  translation: Recolher
+
+- id: copyCode
+  translation: Copiar código
+
+- id: copied
+  translation: Copiado!
+
+- id: prevPage
+  translation: Página anterior
+
+- id: nextPage
+  translation: Próxima página
+
+- id: externalLink
+  translation: Link externo
+
+- id: previousPost
+  translation: Post anterior
+
+- id: nextPost
+  translation: Próximo post
+
+- id: olderPost
+  translation: Posts mais antigos
+
+- id: newerPost
+  translation: Posts mais recentes
+
+- id: dark
+  translation: Escuro
+
+- id: light
+  translation: Claro
+
+- id: system
+  translation: Sistema
+
+- id: themeToggle
+  translation: Alternar tema
+
+- id: copyright
+  translation: Copyright
+
+- id: poweredBy
+  translation: Desenvolvido com
+
+- id: article
+  translation: Artigo
+
+- id: category
+  translation: Categoria
+
+- id: tag
+  translation: Tag
+
+- id: series
+  translation: Série
+
+- id: documentation
+  translation: Documentação
+
+- id: blog
+  translation: Blog
+
+- id: docs
+  translation: Docs
+
+- id: pageNotFound
+  translation: Página não encontrada
+
+- id: 404Title
+  translation: Página não encontrada
+
+- id: 404Text
+  translation: A página que você está procurando não existe.
+
+- id: searchPlaceholder
+  translation: Digite para buscar...
+
+- id: noResultsFound
+  translation: Nenhum resultado encontrado
+
+- id: backToTop
+  translation: Voltar ao topo
+
+- id: filterByTag
+  translation: Filtrar por tag
+
+- id: selectLanguage
+  translation: Selecione o idioma
+
+- id: openInNewTab
+  translation: Abrir em nova aba
+
+- id: showTableOfContents
+  translation: Mostrar índice
+
+- id: hideTableOfContents
+  translation: Esconder índice

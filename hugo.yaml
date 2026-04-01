@@ -1,9 +1,19 @@
 # Hugo configuration file
 baseURL: "https://arthur607.github.io/150ml-blog/"
-languageCode: "en-US"
-description: "150ml — a personal blog"
+languageCode: "pt-BR"
+defaultContentLanguage: pt
+description: "150ml — um blog pessoal"
 enableRobotsTXT: true
 title: 150ml
+copyright: "© 2026 Arthur Garcia"
+
+languages:
+  pt:
+    languageName: Português
+    weight: 1
+  en:
+    languageName: English
+    weight: 2
 
 # import hextra as module
 module:
@@ -38,10 +48,10 @@ related:
 
 menu:
   main:
-    - name: About
+    - identifier: about
       pageRef: /about
       weight: 1
-    - name: Tags
+    - identifier: tags
       pageRef: /tags
       weight: 2
     - name: GitHub
@@ -49,12 +59,16 @@ menu:
       url: "https://github.com/arthugarcia"
       params:
         icon: github
-    - name: Search
+    - identifier: search
       weight: 4
       params:
         type: search
-    - name: Theme
+    - identifier: language
       weight: 5
+      params:
+        type: language-switcher
+    - identifier: themeToggle
+      weight: 6
       params:
         type: theme-toggle
 
@@ -62,10 +76,11 @@ params:
   navbar:
     displayTitle: true
     displayLogo: false
+    displayLanguageSwitcher: true
 
   footer:
     displayCopyright: false
-    displayPoweredBy: true
+    displayPoweredBy: false
 
   editURL:
     enable: false
