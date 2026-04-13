@@ -1,5 +1,5 @@
 # Hugo configuration file
-baseURL: "https://arthur607.github.io/150ml-blog/"
+baseURL: "https://grand-duckanoo-e8458d.netlify.app/"
 languageCode: "pt-BR"
 defaultContentLanguage: pt
 description: "150ml — um blog pessoal"
