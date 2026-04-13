@@ -2,8 +2,6 @@
 
 Personal blog built with [Hugo](https://gohugo.io/) and the [Hextra](https://github.com/imfing/hextra) theme.
 
-🌐 **[grand-duckanoo-e8458d.netlify.app](https://grand-duckanoo-e8458d.netlify.app/)**
-
 ## Local Development
 
 Prerequisites: [Hugo](https://gohugo.io/getting-started/installing/), [Go](https://golang.org/doc/install) and [Git](https://git-scm.com)
